@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '64b55f83-4d76-4902-8948-9544ee76ae02'
   imageRepository: 'nvhaisdmsa'
   containerRegistry: 'haipractical.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/src/backend/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/src/frontend/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
